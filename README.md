@@ -28,4 +28,4 @@ G "Commit message here"
 * Implement an auto commit message that is more descriptive than just "Fix". Maybe find out what you have been doing. Anything is better than fix.
 * Implement proper error handlig and git edit flow.
 * Add optional flag for voice message on complete
-* 
+* fs

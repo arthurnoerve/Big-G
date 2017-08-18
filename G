@@ -31,6 +31,6 @@ then
 	git push
 	echo -e "${BLUE}big G be done here #orderrestored${NC}"
 	#say "BIG G    IS DONE HERE"
-	echo " $(date) Big G saved you this time as well." > ~/logs/bigGsaves.txt
+	#echo " $(date) Big G saved you this time as well." > ~/logs/bigGsaves.txt
 fi
 

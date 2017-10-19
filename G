@@ -19,13 +19,13 @@ echo -e "${BLUE}GIT ADD .${NC}"
 git add .
 
 echo -e "${BLUE}GIT COMMIT -M ${M}${NC}"
-git commit -m $M
+git commit -m "$M"
 
 echo -e "${BLUE}GIT PULL${NC}"
 git pull
 
 if [ $? != 1 ]
-then 
+then
 	echo "No errors while pushing".
 	echo -e "${BLUE}GIT PUSH${NC}"
 	git push
@@ -33,4 +33,3 @@ then
 	#say "BIG G    IS DONE HERE"
 	#echo " $(date) Big G saved you this time as well." > ~/logs/bigGsaves.txt
 fi
-
